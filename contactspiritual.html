@@ -321,6 +321,12 @@
         padding: 30px 20px 80px;
         background: #000000;
       }
+		.header-logo-top {
+			display: block;
+			width: min(100%, 220px);
+			height: auto;
+			margin: 0 auto 12px;
+      }
 
       .contact-form-area .jotform-form,
       .contact-form-area .form-all {
@@ -771,6 +777,11 @@ JotForm.paymentExtrasOnTheFly([null,{"description":"Please insert the First, Las
           menuButton.setAttribute("aria-expanded", "false");
         });
       });
+		const formLogo = document.querySelector(".header-logo-top");
+      if (formLogo) {
+        formLogo.src = "1645654548317.jpg";
+        formLogo.alt = "Spiritual Guidance Co. logo";
+      }
     </script>
     </body>
   </body>
